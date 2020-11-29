@@ -11,16 +11,20 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	/* 	border-bottom-color: #ffd68a;
+	border-bottom-style: groove;
+	border-bottom-style: 2px;
+	border-bottom-width: 100%; */
 }
 .name {
 	font-family: Nunito;
 	z-index: 1;
 	color: #754c00;
-	font-size: 3rem;
+	font-size: 5rem;
 	font-weight: bold;
-	box-shadow: 0px 2px darkorange;
+	/* 	box-shadow: 0px 2px darkorange; */
+	margin: 2%;
 }
-
 .movingBlock {
 	display: flex;
 	border-radius: 10px;
