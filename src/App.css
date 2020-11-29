@@ -1,19 +1,26 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+* {
+	box-sizing: border-box;
+}
 .heading {
-  margin-left: 5%;
-  margin-top:10%;
-  width:100%;
-  height:80px;
+	margin-left: 5%;
+	margin-top: 10%;
+	width: 100%;
+	height: 20%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
 .name {
-	font-family: sourceSansPro;
+	font-family: Nunito;
 	z-index: 1;
-	font-size: 2rem;
+	color: #754c00;
+	font-size: 3rem;
+	font-weight: bold;
+	box-shadow: 0px 2px darkorange;
 }
+
 .movingBlock {
 	display: flex;
 	border-radius: 10px;
@@ -24,10 +31,11 @@
 	color: white;
 	width: 100px;
 	height: 100px;
+	box-shadow: -14px -14px #ffd68a;
 	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
 	transition-property: background;
 	animation-name: test1;
-	animation-duration: 5s;
+	animation-duration: 6s;
 	animation-fill-mode: forwards;
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
@@ -41,4 +49,15 @@
 	to {
 		transform: rotateZ(360deg);
 	}
+}
+.all {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.body {
+	background-color: #ffc55c;
+	width: 100%;
+	height: 100%;
 }
