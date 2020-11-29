@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+.heading {
+  margin-left: 5%;
+  margin-top:10%;
+  width:100%;
+  height:80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name {
+	font-family: sourceSansPro;
+	z-index: 1;
+	font-size: 2rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.movingBlock {
+	display: flex;
+	border-radius: 10px;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	background-color: darkorange;
+	color: white;
+	width: 100px;
+	height: 100px;
+	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+	transition-property: background;
+	animation-name: test1;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-direction: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@keyframes test1 {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
 }

@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import FlickeringDisplay from './FlickeringDisplay.jsx';
+import DisplayName from './FlickeringDisplay.jsx';
 
 function App() {
   return (
     <div className="App">
-      <FlickeringDisplay text="Nidhi" />
+      <DisplayName />
     </div>
   );
 }

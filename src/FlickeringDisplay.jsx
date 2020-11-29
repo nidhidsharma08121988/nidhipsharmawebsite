@@ -1,10 +1,15 @@
-function FlickeringDisplay(props) {
+function DisplayName() {
 
     return (
-        <div>Hello {props.text}</div>
-
+        <div class="heading">
+            <div className="movingBlock">
+                <div
+                    style={{ backgroundColor: "white", width: "50%", height: "50%" }}
+                ></div>
+            </div>
+            <div className="name">NIDHI SHARMA</div>
+        </div>
     );
 
-
 }
-export default FlickeringDisplay;
+export default DisplayName;
