@@ -102,6 +102,7 @@ a {
 }
 
 /* BODY part from the image of Nidhi */
+ 
 
 .body {
 	display: flex;
@@ -114,6 +115,7 @@ a {
 	font-family: Nunito;
 	width: 100%;
 	height: 100%;
+	
 }
 
 .image{
@@ -164,8 +166,10 @@ a {
   margin-top: 5%;
 }
 h2{
+	width: 100%;
   text-align: center;
   margin-left: 6%;
+  justify-content: center;
 }
 .allName{
   display: flex;
