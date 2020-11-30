@@ -28,7 +28,7 @@ a {
 	text-decoration: none;
 	color: #aa6000;
 	font-family: Nunito;
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 .projName:hover {
 	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
@@ -51,9 +51,7 @@ a {
 }
 
 .name {
-  
 	font-family: Nunito;
-	z-index: 1;
 	color: #754c00;
 	font-size: 3rem;
 	margin-top: 1px;
@@ -67,11 +65,12 @@ a {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-  background-color: darkorange;
-  z-index: -1;
+	text-align: center;
+  	background-color: darkorange;
+  	z-index: -1;
 	color: white;
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	box-shadow: -14px -14px #ffd68a;
 	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
 	transition-property: background;
@@ -105,7 +104,6 @@ a {
 /* BODY part from the image of Nidhi */
 
 .body {
-	margin-top: 0px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -122,14 +120,23 @@ a {
   margin-left:5%;
 }
 .imgNidhi {
-  
-  border-left:10px solid darkorange;
+	box-sizing:content-box;
+  	border-left:30px solid darkorange;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 }
+.imgNidhi:hover{
+	border-left:none;
+	border-right:30px solid darkorange ;
+}
 
-
+.about{
+	z-index: 2;
+	position: relative ;
+	margin-bottom: 5%;
+/* important attribute position if you want z index to work */
+}
 .sub {
 	color: #754c00;
 }
@@ -139,18 +146,26 @@ a {
 }
 .subHead {
   color: #ffae42;
-  z-index:1;
+ 
+}
+.withLogo{
+	display: flex;
+	flex-direction: row;
 }
 .credit {
 	font-style: italic;
+	z-index:1;
+	position:relative;
 }
 .headSubHead{
   display:flex;
   flex-direction: column;
   margin-left:5%;
+  margin-top: 5%;
 }
 h2{
   text-align: center;
+  margin-left: 6%;
 }
 .allName{
   display: flex;
@@ -179,6 +194,32 @@ h2{
 	.imgNidhi{
 		width:100px;
 		height:100px;
+	}
+	.movingBlock{
+		width:20px;
+		height:20px;
+	}
+}
+@media only screen and (min-width:830px){
+	a{
+		font-size: 1.5rem;
+	}
+	.name{
+		font-size: 3rem;
+	}
+	
+	.about{
+		font-size: 1rem;
+	}
+	.credit{
+		font-size: 1rem;
+	}
+	p{
+		font-size: 1rem;
+	}
+	.imgNidhi{
+		width:200px;
+		height:200px;
 	}
 	.movingBlock{
 		width:40px;

@@ -87,10 +87,19 @@ function DisplayBody() {
         <div className="body">
 
             <div className="details">
+                <div className="withLogo">
 
-                <h2 className="subHead">About Me</h2>
+                    <h2 className="subHead">About Me</h2>
+
+                </div>
                 <div className="about">{about}</div>
-                <h2 className="subHead credit">Credits</h2>
+
+                <div className="withLogo">
+
+
+                    <h2 className="subHead">Credits</h2>
+
+                </div>
                 <div className="credit">{credits}</div>
             </div>
         </div>
