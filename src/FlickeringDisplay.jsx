@@ -1,5 +1,6 @@
-import DisplayBody from "./DisplayBody";
 function DisplayName() {
+    const source = "nidhi.jpg";
+    const sub = <p> A Mom | A Cook | A Dancer | A Writer | An Aspiring Front-end Developer </p>;
 
     return (
         <div classname="all">
@@ -26,15 +27,23 @@ function DisplayName() {
                 </div>
             </div>
             <div class="heading">
-                <div className="name"> NIDHI </div>
-                <div className="movingBlock">
-                    <div
-                        style={{ backgroundColor: "white", width: "50%", height: "50%" }}
-                    ></div>
+                <div className="image">
+                    <img className="imgNidhi" src={source} alt="Nidhi Sharma" />
                 </div>
-                <div className="name"> SHARMA </div>
+                <div className="headSubHead">
+                    <div className="allName">
+                        <div className="name"> NIDHI </div>
+                        <div className="movingBlock">
+                            <div
+                                style={{ backgroundColor: "white", width: "50%", height: "50%" }}
+                            ></div>
+                        </div>
+                        <div className="name"> SHARMA </div>
+                    </div>
+                    <div className="sub">{sub}</div>
+                </div>
             </div>
-            <div className="body"></div>
+
         </div>
     );
 

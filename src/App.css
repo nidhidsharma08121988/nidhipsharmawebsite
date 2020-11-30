@@ -2,20 +2,18 @@
 * {
 	box-sizing: border-box;
 }
+
+/* HEADING PART until the image */
 .heading {
 	margin-left: 5%;
 	margin-top: 10%;
 	width: 100%;
-	height: 20%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	/* 	border-bottom-color: #ffd68a;
-	border-bottom-style: groove;
-	border-bottom-style: 2px;
-	border-bottom-width: 100%; */
 }
+
 .projectList {
 	display: flex;
 	flex-direction: row;
@@ -24,6 +22,7 @@
 .projName {
 	margin-left: 2%;
 	margin-right: 2%;
+	margin-bottom: 0px;
 }
 a {
 	text-decoration: none;
@@ -55,21 +54,23 @@ a {
 	font-family: Nunito;
 	z-index: 1;
 	color: #754c00;
-	font-size: 4rem;
-	/* 	box-shadow: 0px 2px darkorange; */
+	font-size: 3rem;
+	margin-top: 2px;
 	margin-left: 2%;
 	margin-right: 2%;
+	margin-bottom: 0px;
 }
 .movingBlock {
 	display: flex;
-	border-radius: 10px;
+	border-radius: 20%;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	background-color: darkorange;
+  background-color: darkorange;
+  z-index: -1;
 	color: white;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	box-shadow: -14px -14px #ffd68a;
 	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
 	transition-property: background;
@@ -92,13 +93,55 @@ a {
 }
 .all {
 	width: 100%;
-	height: 100%;
 	display: flex;
 	flex-direction: column;
 	font-family: Nunito;
 }
+
+/* BODY part from the image of Nidhi */
+
 .body {
-	background-color: #ffc55c;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-self: center;
+	justify-content: center;
+	align-items: center;
+	color: #aa6000;
+	font-family: Nunito;
 	width: 100%;
 	height: 100%;
+}
+
+
+.imgNidhi {
+  border-left:10px solid darkorange;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+
+.sub {
+	color: #754c00;
+}
+.details {
+	text-align: justify;
+	width: 50%;
+}
+.subHead {
+  color: #ffae42;
+  z-index:1;
+}
+.credit {
+	font-style: italic;
+}
+.headSubHead{
+  display:flex;
+  flex-direction: column;
+}
+.allName{
+  display: flex;
+  flex-direction: row;
 }
