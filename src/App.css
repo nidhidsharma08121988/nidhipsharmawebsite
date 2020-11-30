@@ -5,12 +5,12 @@
 
 /* HEADING PART until the image */
 .heading {
-	margin-left: 5%;
-	margin-top: 10%;
+  margin-top:3%;
+  margin-left: 0px;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
 	align-items: center;
 }
 
@@ -51,11 +51,12 @@ a {
 }
 
 .name {
+  
 	font-family: Nunito;
 	z-index: 1;
 	color: #754c00;
 	font-size: 3rem;
-	margin-top: 2px;
+	margin-top: 1px;
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-bottom: 0px;
@@ -82,7 +83,10 @@ a {
 	animation-timing-function: ease-in;
 	animation-direction: normal;
 }
-
+.App{
+  margin-left:2%;
+  margin-top:2%;
+}
 @keyframes logo {
 	from {
 		transform: rotateZ(0deg);
@@ -101,7 +105,7 @@ a {
 /* BODY part from the image of Nidhi */
 
 .body {
-	margin-top: 5%;
+	margin-top: 0px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -114,8 +118,11 @@ a {
 	height: 100%;
 }
 
-
+.image{
+  margin-left:5%;
+}
 .imgNidhi {
+  
   border-left:10px solid darkorange;
 	width: 200px;
 	height: 200px;
@@ -140,6 +147,10 @@ a {
 .headSubHead{
   display:flex;
   flex-direction: column;
+  margin-left:5%;
+}
+h2{
+  text-align: center;
 }
 .allName{
   display: flex;

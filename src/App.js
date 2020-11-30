@@ -10,6 +10,6 @@ function App() {
       <DisplayBody />
     </div>
   );
-}
+} 
 
 export default App;
