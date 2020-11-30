@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
 * {
 	box-sizing: border-box;
 }
@@ -16,14 +16,49 @@
 	border-bottom-style: 2px;
 	border-bottom-width: 100%; */
 }
+.projectList {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.projName {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+a {
+	text-decoration: none;
+	color: #aa6000;
+	font-family: Nunito;
+	font-size: 1rem;
+}
+.projName:hover {
+	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+	animation-name: projectAnimate;
+	animation-duration: 3s;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: forwards;
+	animation-play-state: ease-out;
+	transform-style: inherit;
+	/* 	tranform style will make the text rotate if you remove it or don't add inherit then it will not make text rotate */
+}
+@keyframes projectAnimate {
+	from {
+		transform: rotateY(0deg);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+
 .name {
 	font-family: Nunito;
 	z-index: 1;
 	color: #754c00;
-	font-size: 5rem;
-	font-weight: bold;
+	font-size: 4rem;
 	/* 	box-shadow: 0px 2px darkorange; */
-	margin: 2%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 .movingBlock {
 	display: flex;
@@ -38,7 +73,7 @@
 	box-shadow: -14px -14px #ffd68a;
 	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
 	transition-property: background;
-	animation-name: test1;
+	animation-name: logo;
 	animation-duration: 6s;
 	animation-fill-mode: forwards;
 	animation-delay: 2s;
@@ -46,7 +81,8 @@
 	animation-timing-function: ease-in;
 	animation-direction: normal;
 }
-@keyframes test1 {
+
+@keyframes logo {
 	from {
 		transform: rotateZ(0deg);
 	}
@@ -59,6 +95,7 @@
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	font-family: Nunito;
 }
 .body {
 	background-color: #ffc55c;
