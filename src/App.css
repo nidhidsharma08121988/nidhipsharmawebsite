@@ -64,7 +64,7 @@ a {
   margin-left:2%;
   margin-top:2%;
 }
-
+/* mix of heading and projects and subheading and picture */
 .all {
 	width: 100%;
 	display: flex;
@@ -114,9 +114,10 @@ a {
 .sub {
 	color: #754c00;
 }
+/* includes about and credits */
 .details {
 	text-align: justify;
-	width: 80%;
+	
 }
 .subHead {
   color: #ffae42;
@@ -132,13 +133,12 @@ a {
 	z-index:1;
 	position:relative;
 }
+/* includes the name nidhi sharma and the sub heading  */
 .headSubHead{
   display:flex;
   flex-direction: column;
   margin-left:5%;
   margin-top: 5%;
-
-  align-items: center;
   
 }
 h2{
@@ -175,6 +175,9 @@ h2{
 		width:100px;
 		height:100px;
 	}
+	.details{
+		width:80%;
+	}
 	/* .movingBlock{
 		width:50px;
 		height:20px;
@@ -204,6 +207,12 @@ h2{
 	.imgNidhi{
 		width:200px;
 		height:200px;
+	}
+	.details{
+		width: 60%;
+	}
+	.headSubHead{
+		align-items: center;
 	}
 	/* .movingBlock{
 		width:100px;
