@@ -85,7 +85,7 @@ function DisplayBody() {
 
     return (
         <div className="body">
-
+          
             <div className="details">
                 <div className="withLogo">
 
