@@ -1,6 +1,6 @@
 function DisplayName() {
     const source = "nidhi.jpg";
-    const sub = <p> A Mom | A Cook | A Dancer | A Writer | Aspiring Front-end Developer</p>;
+    const sub = <p> A Mom | A Cook | A Dancer | A Writer | Front-end Developer</p>;
 
     return (
         <div classname="all">
