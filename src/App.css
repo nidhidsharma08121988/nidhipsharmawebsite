@@ -59,46 +59,18 @@ a {
 	margin-right: 2%;
 	margin-bottom: 0px;
 }
-.movingBlock {
-	display: flex;
-	border-radius: 20%;
-	align-content: center;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-  	background-color: darkorange;
-  	z-index: -1;
-	color: white;
-	width: 40px;
-	height: 40px;
-	box-shadow: -14px -14px #ffd68a;
-	/* 	animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
-	transition-property: background;
-	animation-name: logo;
-	animation-duration: 6s;
-	animation-fill-mode: forwards;
-	animation-delay: 2s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in;
-	animation-direction: normal;
-}
+
 .App{
   margin-left:2%;
   margin-top:2%;
 }
-@keyframes logo {
-	from {
-		transform: rotateZ(0deg);
-	}
-	to {
-		transform: rotateZ(360deg);
-	}
-}
+
 .all {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	font-family: Nunito;
+	box-shadow:3px 3px #FFD68A ;
 }
 
 /* BODY part from the image of Nidhi */
@@ -144,7 +116,7 @@ a {
 }
 .details {
 	text-align: justify;
-	width: 50%;
+	width: 80%;
 }
 .subHead {
   color: #ffae42;
@@ -153,6 +125,7 @@ a {
 .withLogo{
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 }
 .credit {
 	font-style: italic;
@@ -164,6 +137,9 @@ a {
   flex-direction: column;
   margin-left:5%;
   margin-top: 5%;
+
+  align-items: center;
+  
 }
 h2{
 	width: 100%;
@@ -178,31 +154,31 @@ h2{
 
 @media only screen and (max-width:829px){
 	a{
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 	.name{
 		font-size: 1.5rem;
 	}
 	h2{
-		font-size: 1rem;
+		font-size: 1.4rem;
 	}
 	.about{
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 	.credit{
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 	p{
-		font-size: 0.5rem;
+		font-size: 1rem;
 	}
 	.imgNidhi{
 		width:100px;
 		height:100px;
 	}
-	.movingBlock{
-		width:20px;
+	/* .movingBlock{
+		width:50px;
 		height:20px;
-	}
+	} */
 }
 @media only screen and (min-width:830px){
 	a{
@@ -213,20 +189,24 @@ h2{
 	}
 	
 	.about{
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 	.credit{
-		font-size: 1rem;
+		font-size: 1.3rem;
+		
 	}
 	p{
-		font-size: 1rem;
+		font-size: 1.3rem;
+	}
+	h2{
+		font-size: 2rem;
 	}
 	.imgNidhi{
 		width:200px;
 		height:200px;
 	}
-	.movingBlock{
-		width:40px;
-		height:40px;
-	}
+	/* .movingBlock{
+		width:100px;
+		height:2px;
+	} */
 }

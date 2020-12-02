@@ -38,11 +38,6 @@ function DisplayName() {
                     </div>
 
                     <div className="sub">{sub}</div>
-                    {/* <div className="movingBlock">
-                        <div
-                            style={{ backgroundColor: "white", width: "50%", height: "50%" }}
-                        ></div>
-                    </div> */}
                 </div>
             </div>
 

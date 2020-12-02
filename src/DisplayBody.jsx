@@ -96,7 +96,6 @@ function DisplayBody() {
 
                 <div className="withLogo">
 
-
                     <h2 className="subHead">Credits</h2>
 
                 </div>
