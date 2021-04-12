@@ -25,6 +25,11 @@ function DisplayName() {
                         CAGR Calculator
 					</a>
                 </div>
+                <div className="projName">
+                    <a href="https://codepen.io/nidhidsharma08121988/full/mdRpywm" target="_blank">
+                        React Phone Book
+					</a>
+                </div>
             </div>
             <div class="heading">
                 <div className="image">

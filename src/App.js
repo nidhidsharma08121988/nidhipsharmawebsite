@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import DisplayName from './FlickeringDisplay.jsx';
 import DisplayBody from './DisplayBody';
@@ -10,6 +9,6 @@ function App() {
       <DisplayBody />
     </div>
   );
-} 
+}
 
 export default App;
